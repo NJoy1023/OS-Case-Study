@@ -4,10 +4,12 @@ A Python-based Operating Systems simulation program designed to demonstrate and 
 
 The simulator is implemented using Python with the help of Matplotlib and NumPy for graphical representation.
 
----
 
 # Video Presentation
 https://drive.google.com/file/d/1_Uh1bJKf5WO-lzUe0VZXCps3JdxucpDQ/view?usp=sharing
+
+
+---
 
 # Features
 
