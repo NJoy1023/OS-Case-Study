@@ -220,8 +220,6 @@ to exit the program.
 ---
 
 
----
-
 # Developers
 
 Developed as part of an Operating Systems CPU Scheduling Case Study project.
