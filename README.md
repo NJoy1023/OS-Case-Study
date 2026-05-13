@@ -1,14 +1,14 @@
 # CPU Scheduling Simulator
 
-A Python-based Operating Systems simulation program that demonstrates different CPU Scheduling Algorithms and visualizes their execution using Gantt Charts.
+A Python-based Operating Systems simulation program designed to demonstrate and compare different CPU Scheduling Algorithms through computed process metrics and Gantt Chart visualizations.
 
-Built using Python, Matplotlib, and NumPy.
+The simulator is implemented using Python with the help of Matplotlib and NumPy for graphical representation.
 
 ---
 
 # Features
 
-This simulator supports the following scheduling algorithms:
+The program supports the following CPU Scheduling Algorithms:
 
 1. First Come First Served (FCFS)
 2. Shortest Job First (SJF – Non-Preemptive)
@@ -18,39 +18,39 @@ This simulator supports the following scheduling algorithms:
 6. Priority Scheduling (Preemptive)
 7. Priority + Round Robin
 
-The program also calculates:
+For each simulation, the program computes and displays:
 
-* Waiting Time (WT)
-* Turnaround Time (TAT)
-* Completion Time (CT)
-* Average Waiting Time
-* Average Turnaround Time
+- Waiting Time (WT)
+- Turnaround Time (TAT)
+- Completion Time (CT)
+- Average Waiting Time
+- Average Turnaround Time
 
-Additionally, the program generates a Gantt Chart visualization for every simulation.
+The system also generates a Gantt Chart visualization to illustrate CPU execution flow.
 
 ---
 
 # Requirements
 
-Before running the program, make sure the following are installed:
+Before running the program, ensure that the following are installed on your system:
 
-* Python 3.x
-* Matplotlib
-* NumPy
+- Python 3.x
+- Matplotlib
+- NumPy
 
 ---
 
-# Installation
+# Installation Guide
 
 ## 1. Install Python
 
-Download Python from the official website:
+Download and install Python from the official website:
 
-[Python Official Website](https://www.python.org/downloads/?utm_source=chatgpt.com)
+https://www.python.org/downloads/
 
 During installation, make sure to enable:
 
-```text id="qbrkq5"
+```text
 Add Python to PATH
 ```
 
@@ -60,13 +60,13 @@ Add Python to PATH
 
 Open Command Prompt or Terminal and run:
 
-```bash id="s0u68f"
+```bash
 pip install matplotlib numpy
 ```
 
-If `pip` does not work, try:
+If `pip` does not work, use:
 
-```bash id="pjqj0h"
+```bash
 py -m pip install matplotlib numpy
 ```
 
@@ -78,11 +78,11 @@ py -m pip install matplotlib numpy
 
 Using Git:
 
-```bash id="26d7je"
+```bash
 git clone https://github.com/your-username/your-repository-name.git
 ```
 
-Or download the repository as ZIP from [GitHub](https://github.com?utm_source=chatgpt.com) and extract it.
+Or download the repository as a ZIP file from GitHub and extract it.
 
 ---
 
@@ -90,39 +90,39 @@ Or download the repository as ZIP from [GitHub](https://github.com?utm_source=ch
 
 Navigate to the folder containing:
 
-```text id="v9ztse"
-OS-CPU-Scheduling-CaseSudy_FINALIZED.py
+```text
+Source_Code.py
 ```
 
 Example:
 
-```bash id="m1pp9q"
-cd Desktop/CPU-Scheduler
+```bash
+cd Desktop/CPU-Scheduling-CaseStudy
 ```
 
 ---
 
-## 3. Run the Program
+## 3. Execute the Program
 
-Execute the Python file using:
+Run the Python file using:
 
-```bash id="z0mgtm"
-python OS-CPU-Scheduling-CaseSudy_FINALIZED.py
+```bash
+python Source_Code.py
 ```
 
 or
 
-```bash id="c4thlb"
-py OS-CPU-Scheduling-CaseSudy_FINALIZED.py
+```bash
+py Source_Code.py
 ```
 
 ---
 
 # Using the Program
 
-After running the program, choose a scheduling algorithm from the menu:
+After launching the program, select a scheduling algorithm from the menu:
 
-```text id="mhsl2s"
+```text
 1. FCFS
 2. SJF (Non-Preemptive)
 3. SRT (Preemptive SJF)
@@ -132,31 +132,28 @@ After running the program, choose a scheduling algorithm from the menu:
 7. Priority + Round Robin
 ```
 
-Then:
+Then provide the required process information:
 
-1. Enter the number of processes
-2. Input:
+- Process Identifier
+- Burst Time
+- Arrival Time
+- Priority Value (if required)
+- Time Quantum (if required)
 
-   * Process ID
-   * Burst Time
-   * Arrival Time
-   * Priority (if required)
-   * Time Quantum (if required)
+The program will then display:
 
-The program will display:
-
-* Process scheduling table
-* Waiting Time
-* Turnaround Time
-* Completion Time
-* Average WT and TAT
-* Gantt Chart visualization
+- Process Scheduling Table
+- Waiting Time
+- Turnaround Time
+- Completion Time
+- Average WT and TAT
+- Gantt Chart Visualization
 
 ---
 
 # Example Input
 
-```text id="crftft"
+```text
 Enter choice: 1
 Enter number of processes (>=3): 3
 
@@ -178,13 +175,13 @@ Arrival Time: 2
 
 ---
 
-# Common Errors
+# Common Errors and Solutions
 
 ## ModuleNotFoundError: No module named 'matplotlib'
 
 Install matplotlib using:
 
-```bash id="1a0nd9"
+```bash
 pip install matplotlib
 ```
 
@@ -194,16 +191,34 @@ pip install matplotlib
 
 Install numpy using:
 
-```bash id="2c7sc7"
+```bash
 pip install numpy
 ```
 
+---
+
+## 'python' is not recognized as an internal or external command
+
+This means Python is either not installed or not added to the system PATH.
+
+Solution:
+
+- Reinstall Python
+- Enable:
+
+```text
+Add Python to PATH
+```
+
+during installation.
+
+---
 
 # Program Termination
 
-After each simulation, the program will ask:
+After each simulation, the program asks:
 
-```text id="rnwql8"
+```text
 Run another simulation?
 1. Yes
 2. No
@@ -211,15 +226,14 @@ Run another simulation?
 
 Enter:
 
-```text id="d0n8mc"
+```text
 2
 ```
 
-to exit the program.
+to terminate the program.
 
 ---
 
-
 # Developers
 
-Developed as part of an Operating Systems CPU Scheduling Case Study project.
+Developed as part of an Operating Systems Case Study project focused on analyzing and simulating CPU Scheduling Algorithms using Python.
