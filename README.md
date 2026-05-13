@@ -141,7 +141,7 @@ Then:
    * Burst Time
    * Arrival Time
    * Priority (if required)
-3. Enter Time Quantum for Round Robin algorithms
+   * Time Quantum (if required)
 
 The program will display:
 
@@ -198,24 +198,6 @@ Install numpy using:
 pip install numpy
 ```
 
----
-
-## 'python' is not recognized
-
-Python is either not installed or not added to PATH.
-
-Solution:
-
-* Reinstall Python
-* Enable:
-
-```text id="zslfhr"
-Add Python to PATH
-```
-
-during installation.
-
----
 
 # Program Termination
 
@@ -237,28 +219,6 @@ to exit the program.
 
 ---
 
-# Project Structure
-
-```text id="b7o04m"
-CPU-Scheduling-CaseStudy/
-│
-├── OS-CPU-Scheduling-CaseSudy_FINALIZED.py
-├── README.md
-└── requirements.txt
-```
-
-Example `requirements.txt`:
-
-```text id="s76m68"
-matplotlib
-numpy
-```
-
-Install all dependencies using:
-
-```bash id="4vw5ae"
-pip install -r requirements.txt
-```
 
 ---
 
