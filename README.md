@@ -8,7 +8,6 @@ The simulator is implemented using Python with the help of Matplotlib and NumPy 
 
 # Video Presentation
 https://drive.google.com/file/d/1_Uh1bJKf5WO-lzUe0VZXCps3JdxucpDQ/view?usp=sharing
-[Watch the Demo Video Here](https://drive.google.com/file/d/1_Uh1bJKf5WO-lzUe0VZXCps3JdxucpDQ/view?usp=sharing)
 
 # Features
 
